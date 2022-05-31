@@ -120,21 +120,5 @@ Project:
    Uri: 'urn:FTOptix:OPCUAServer:Net'
    Module: FTOptix.OPCUAServer.Net
    Version: 3.1.0.0
-  38:
-   Uri: 'urn:FTOptix:Store'
-   Module: FTOptix.Store
-   Version: 2.1.0.0
-  39:
-   Uri: 'urn:FTOptix:Store:Net'
-   Module: FTOptix.Store.Net
-   Version: 3.0.0.0
-  40:
-   Uri: 'urn:FTOptix:SQLiteStore'
-   Module: FTOptix.SQLiteStore
-   Version: 2.1.0.0
-  41:
-   Uri: 'urn:FTOptix:SQLiteStore:Net'
-   Module: FTOptix.SQLiteStore.Net
-   Version: 2.1.0.0
  Nodes:
  - File: Nodes/BoilerDemoClient.yaml
