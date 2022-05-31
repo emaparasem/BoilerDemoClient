@@ -2,6 +2,7 @@
 using UAManagedCore;
 using FTOptix.CoreBase;
 using FTOptix.NetLogic;
+using FTOptix.OPCUAServer;
 #endregion
 
 public class PeriodicActionLogic : BaseNetLogic

@@ -1,0 +1,405 @@
+Name: ns=8;DataStores
+Id: ns=8;g=a4df5772d0d34da0855742229b7dc3a2
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"DataStores"}
+Children:
+- Name: ns=8;EmbeddedDatabase
+  Id: ns=8;g=b64b1a3c83f8b66c8afbfccb5cec04d9
+  Type: BaseObjectType
+  DisplayName: {"LocaleId":"","Text":"EmbeddedDatabase"}
+  Children:
+  - Name: ns=38;Tables
+    Id: ns=8;g=4aab55581a22080d6b5f6204703798d1
+    Type: BaseObjectType
+    DisplayName: {"LocaleId":"","Text":"Tables"}
+    Children:
+    - Name: ns=8;DataLogger
+      Id: ns=8;g=32d6b85d6f2743be52c60396db92409d
+      Type: SQLiteStoreTable
+      DisplayName: {"LocaleId":"","Text":"DataLogger"}
+      Children:
+      - Class: Reference
+        Target: ns=38;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=38;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=38;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=38;i=20
+        Direction: Forward
+      - Name: Columns
+        Id: ns=8;g=ab2e3191d3f258017dd21bad17b2bdf7
+        Type: BaseObjectType
+        DisplayName: {"LocaleId":"","Text":"Columns"}
+        Children:
+        - Name: ns=8;Timestamp
+          Id: ns=8;g=eb681ac38b806b2060fe43c3bd8a7fbe
+          Type: BaseDataVariableType
+          DataType: UtcTime
+          DisplayName: {"LocaleId":"","Text":"Timestamp"}
+          ReferenceType: HasOrderedComponent
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: ns=8;Boiler level
+          Id: ns=8;g=70cedc9f788af1dd79eea0ba0c355f31
+          Type: BaseDataVariableType
+          DataType: Double
+          DisplayName: {"LocaleId":"","Text":"Boiler level"}
+          ReferenceType: HasOrderedComponent
+          Value: 0.0
+        - Name: ns=8;Boiler temp
+          Id: ns=8;g=03261a27e9bec8e2b27947c4103f62bf
+          Type: BaseDataVariableType
+          DataType: Double
+          DisplayName: {"LocaleId":"","Text":"Boiler temp"}
+          ReferenceType: HasOrderedComponent
+          Value: 0.0
+        - Name: ns=8;Tank 2 level
+          Id: ns=8;g=97ffd17f0b0e056fd366df879b2ad733
+          Type: BaseDataVariableType
+          DataType: Float
+          DisplayName: {"LocaleId":"","Text":"Tank 2 level"}
+          ReferenceType: HasOrderedComponent
+          Value: 0.0
+        - Name: ns=8;Tank 1 level
+          Id: ns=8;g=32783c5a54b12e6cc555039872b3b1c8
+          Type: BaseDataVariableType
+          DataType: Float
+          DisplayName: {"LocaleId":"","Text":"Tank 1 level"}
+          ReferenceType: HasOrderedComponent
+          Value: 0.0
+        - Name: ns=8;LocalTimestamp
+          Id: ns=8;g=3d40ae294da1006f9ba2313339f90a18
+          Type: BaseDataVariableType
+          DataType: DateTime
+          DisplayName: {"LocaleId":"","Text":"LocalTimestamp"}
+          ReferenceType: HasOrderedComponent
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: ns=8;Id
+          Id: ns=8;g=587e29a5deb0377a76fb8482433bc09e
+          Type: BaseDataVariableType
+          DataType: UInt64
+          DisplayName: {"LocaleId":"","Text":"Id"}
+          ReferenceType: HasOrderedComponent
+          Value: 0
+    - Name: ns=8;RecipeSchema
+      Id: ns=8;g=8034f71ef14e64861a6d9715953a87db
+      Type: SQLiteStoreTable
+      DisplayName: {"LocaleId":"","Text":"RecipeSchema"}
+      Children:
+      - Class: Reference
+        Target: ns=38;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=38;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=38;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=38;i=20
+        Direction: Forward
+      - Name: Columns
+        Id: ns=8;g=efc165a86a46967c218decc97f336b16
+        Type: BaseObjectType
+        DisplayName: {"LocaleId":"","Text":"Columns"}
+        Children:
+        - Name: ns=8;Name
+          Id: ns=8;g=7236631edb5cf273beabb5138b55c1d6
+          Type: BaseDataVariableType
+          DataType: String
+          DisplayName: {"LocaleId":"","Text":"Name"}
+          ReferenceType: HasOrderedComponent
+          Value: ""
+        - Name: ns=8;/BoilerSetpoint
+          Id: ns=8;g=9996682da6e22e8517645abb92242b49
+          Type: BaseDataVariableType
+          DataType: Int32
+          DisplayName: {"LocaleId":"","Text":"/BoilerSetpoint"}
+          ReferenceType: HasOrderedComponent
+          Value: 0
+        - Name: ns=8;/BoilerHeatTemp
+          Id: ns=8;g=4496abd32ea966f0773504fd798d745e
+          Type: BaseDataVariableType
+          DataType: Int32
+          DisplayName: {"LocaleId":"","Text":"/BoilerHeatTemp"}
+          ReferenceType: HasOrderedComponent
+          Value: 0
+        - Name: ns=8;/BoilerChillTemp
+          Id: ns=8;g=504023a83e2a1b61f692b70de8b413ab
+          Type: BaseDataVariableType
+          DataType: Int32
+          DisplayName: {"LocaleId":"","Text":"/BoilerChillTemp"}
+          ReferenceType: HasOrderedComponent
+          Value: 0
+    - Name: ns=8;AlarmsEventLogger
+      Id: ns=8;g=da4d7db75efdeb1760ebd3c7e3a177d1
+      Type: SQLiteStoreTable
+      DisplayName: {"LocaleId":"","Text":"AlarmsEventLogger"}
+      Children:
+      - Class: Reference
+        Target: ns=38;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=38;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=38;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=38;i=20
+        Direction: Forward
+      - Name: Columns
+        Id: ns=8;g=22ec1de9c548d0c88df7693049692e84
+        Type: BaseObjectType
+        DisplayName: {"LocaleId":"","Text":"Columns"}
+        Children:
+        - Name: ns=8;ActiveState_Id
+          Id: ns=8;g=0b83efae9dbbd54bb4bfb8e75907cc3f
+          Type: BaseDataVariableType
+          DataType: Boolean
+          DisplayName: {"LocaleId":"","Text":"ActiveState_Id"}
+          ReferenceType: HasOrderedComponent
+          Value: false
+        - Name: ns=8;AckedState_Id
+          Id: ns=8;g=a569cbb7362bc8786c2f2fa5c32f6920
+          Type: BaseDataVariableType
+          DataType: Boolean
+          DisplayName: {"LocaleId":"","Text":"AckedState_Id"}
+          ReferenceType: HasOrderedComponent
+          Value: false
+        - Name: ns=8;ConfirmedState_Id
+          Id: ns=8;g=5715898c00b834eb4778bdab434795fc
+          Type: BaseDataVariableType
+          DataType: Boolean
+          DisplayName: {"LocaleId":"","Text":"ConfirmedState_Id"}
+          ReferenceType: HasOrderedComponent
+          Value: false
+        - Name: ns=8;ConditionName
+          Id: ns=8;g=f19bce4a9c1c39fadd2c1acdf9a7f67f
+          Type: BaseDataVariableType
+          DataType: String
+          DisplayName: {"LocaleId":"","Text":"ConditionName"}
+          ReferenceType: HasOrderedComponent
+          Value: ""
+        - Name: ns=8;EnabledState_Id
+          Id: ns=8;g=088d9830a2a99c6cbf6b5f1af845e07c
+          Type: BaseDataVariableType
+          DataType: Boolean
+          DisplayName: {"LocaleId":"","Text":"EnabledState_Id"}
+          ReferenceType: HasOrderedComponent
+          Value: false
+        - Name: ns=8;SourceName
+          Id: ns=8;g=95a5a899c99202c4e27d57c5d4b83cb6
+          Type: BaseDataVariableType
+          DataType: String
+          DisplayName: {"LocaleId":"","Text":"SourceName"}
+          ReferenceType: HasOrderedComponent
+          Value: ""
+        - Name: ns=8;Time
+          Id: ns=8;g=eae9997ba61657ecbc9efebfe2738465
+          Type: BaseDataVariableType
+          DataType: UtcTime
+          DisplayName: {"LocaleId":"","Text":"Time"}
+          ReferenceType: HasOrderedComponent
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: 'ns=8;Message_en-US'
+          Id: ns=8;g=51d7844e076b8bc30d53b0e54a3fd390
+          Type: BaseDataVariableType
+          DataType: String
+          DisplayName: {"LocaleId":"","Text":"Message_en-US"}
+          ReferenceType: HasOrderedComponent
+          Value: ""
+        - Name: 'ns=8;Message_it-IT'
+          Id: ns=8;g=570a266655ad8abad16d1bed8c2f5e84
+          Type: BaseDataVariableType
+          DataType: String
+          DisplayName: {"LocaleId":"","Text":"Message_it-IT"}
+          ReferenceType: HasOrderedComponent
+          Value: ""
+        - Name: ns=8;Severity
+          Id: ns=8;g=f4688e3688831c7a4e9dd24b9acce3f6
+          Type: BaseDataVariableType
+          DataType: UInt16
+          DisplayName: {"LocaleId":"","Text":"Severity"}
+          ReferenceType: HasOrderedComponent
+          Value: 0
+        - Name: ns=8;LocalTime
+          Id: ns=8;g=a8fbca04dbfda9fba5b67b9aee98ca01
+          Type: BaseDataVariableType
+          DataType: DateTime
+          DisplayName: {"LocaleId":"","Text":"LocalTime"}
+          ReferenceType: HasOrderedComponent
+          Value: "1601-01-01T00:00:00.0000000"
+    - Name: ns=8;RecipesAudit
+      Id: ns=8;g=98f62d15279007b36800e2a2356be36d
+      Type: SQLiteStoreTable
+      DisplayName: {"LocaleId":"","Text":"RecipesAudit"}
+      Children:
+      - Class: Reference
+        Target: ns=38;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=38;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=38;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=38;i=20
+        Direction: Forward
+      - Name: Columns
+        Id: ns=8;g=0d97455ec72258eef0d0ab0e3a9a1f1e
+        Type: BaseObjectType
+        DisplayName: {"LocaleId":"","Text":"Columns"}
+        Children:
+        - Name: ns=8;Timestamp
+          Id: ns=8;g=127d2a11bb9ffdcd8bfae690097dbdcf
+          Type: BaseDataVariableType
+          DataType: DateTime
+          DisplayName: {"LocaleId":"","Text":"Timestamp"}
+          ReferenceType: HasOrderedComponent
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: ns=8;RecipeName
+          Id: ns=8;g=cfcdbeae24f7a8dc758a5a3dd45768f6
+          Type: BaseDataVariableType
+          DataType: String
+          DisplayName: {"LocaleId":"","Text":"RecipeName"}
+          ReferenceType: HasOrderedComponent
+          Value: ""
+        - Name: ns=8;Action
+          Id: ns=8;g=d4555ed3d53ba3a7b6b011cc048b7c45
+          Type: BaseDataVariableType
+          DataType: String
+          DisplayName: {"LocaleId":"","Text":"Action"}
+          ReferenceType: HasOrderedComponent
+          Value: ""
+  - Class: Reference
+    Target: ns=40;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=40;i=33
+    Direction: Forward
+  - Name: ns=38;MaxColumnNameLength
+    Id: ns=8;g=6f8690d44ebd5e71fdafd184c3c01564
+    Type: BaseDataVariableType
+    DataType: UInt32
+    DisplayName: {"LocaleId":"","Text":"MaxColumnNameLength"}
+    Value: 1024
+  - Name: ns=38;MaxColumnCount
+    Id: ns=8;g=ba2d30820296fc4496ba3882ba43c98c
+    Type: BaseDataVariableType
+    DataType: UInt32
+    DisplayName: {"LocaleId":"","Text":"MaxColumnCount"}
+    Value: 2000
+  - Name: ns=38;DataTypeCompatibilityMap
+    Id: ns=8;g=577e3fe3bea3d1db20889fd0bb92f2d3
+    Type: BaseDataVariableType
+    DataType: NodeId
+    DisplayName: {"LocaleId":"","Text":"DataTypeCompatibilityMap"}
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+    Value: 
+     {
+      "Type": 17,
+      "Dimensions": [11,2],
+      "Body": [
+       {
+        "Id": 8
+       },{
+        "Id": 1
+       },
+       {
+        "Id": 8
+       },{
+        "Id": 3
+       },
+       {
+        "Id": 8
+       },{
+        "Id": 2
+       },
+       {
+        "Id": 8
+       },{
+        "Id": 4
+       },
+       {
+        "Id": 8
+       },{
+        "Id": 5
+       },
+       {
+        "Id": 8
+       },{
+        "Id": 6
+       },
+       {
+        "Id": 8
+       },{
+        "Id": 7
+       },
+       {
+        "Id": 8
+       },{
+        "Id": 9
+       },
+       {
+        "Id": 11
+       },{
+        "Id": 10
+       },
+       {
+        "Id": 11
+       },{
+        "Id": 290
+       },
+       {
+        "Id": 13
+       },{
+        "Id": 294
+       }
+      ]
+     }
+  - Name: ns=38;Status
+    Id: ns=8;g=8b098c6a25f2b890d6e279e81ff81ce3
+    Type: BaseDataVariableType
+    DataType: StoreStatus
+    DisplayName: {"LocaleId":"","Text":"Status"}
+    ReferenceType: HasProperty
+    Value: 1
+  - Class: Reference
+    Target: ns=38;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=38;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=38;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=38;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=38;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=38;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=38;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=38;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=38;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=38;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=38;i=59
+    Direction: Forward

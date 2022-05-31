@@ -13,7 +13,7 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     DisplayName: {"LocaleId":"","Text":"InputValue"}
-    Value: 1.0
+    Value: 49.0
   - Name: LastEvent
     Id: ns=8;g=9297cca7767ee36f5b4fe3fdbb3ebcfe
     Type: BaseDataVariableType
@@ -21,7 +21,7 @@ Children:
     DisplayName: {"LocaleId":"","Text":"LastEvent"}
     ValueRank: OneDimension
     ArrayDimensions: [0]
-    Value: {"Type":24,"Body":[{"Type":15,"Body":"njix3t2Dr25De2IM3ZsnPsQeA4FCvfVjTwVkctZAGGU="},{"Type":13,"Body":"2022-05-31T09:32:55.4732668"},{"Type":17,"Body":{"IdType":0,"Id":0,"Namespace":-1}},{"Type":1,"Body":true},{"Type":21,"Body":[{"LocaleId":"en-US","Text":"LL1001 - Warning: Tank 1 Low level"}]},{"Type":5,"Body":0},{"Type":21,"Body":{"NamespaceIndex":-1,"LocaleId":"","Text":""}},{"Type":12,"Body":""},{"Type":13,"Body":"2022-05-31T09:32:55.4732668"},{"Type":24,"Body":[{"Type":17,"Body":{"Id":9482}},{"Type":1,"Body":true},{"Type":1,"Body":false},{"Type":1,"Body":false},{"Type":7,"Body":0},{"Type":5,"Body":1},{"Type":17,"Body":{"IdType":2,"Id":"85a0eb1cff97f7d1a480111a6308a3e2","Namespace":8}},{"Type":20,"Body":{"Name":"Level","Uri":8}},{"Type":11,"Body":0.0},{"Type":6,"Body":-1},{"Type":6,"Body":0},{"Type":0,"Body":null},{"Type":24,"Body":[{"Type":0,"Body":null},{"Type":24,"Body":[{"Type":0,"Body":null},{"Type":6,"Body":-1},{"Type":6,"Body":0},{"Type":0,"Body":null},{"Type":6,"Body":-1},{"Type":6,"Body":0},{"Type":11,"Body":5.0},{"Type":6,"Body":-1},{"Type":6,"Body":0},{"Type":0,"Body":null},{"Type":6,"Body":-1},{"Type":6,"Body":0}]},{"Type":0,"Body":null}]}]},{"Type":24,"Body":[{"Type":1,"Body":false},{"Type":1,"Body":true},{"Type":24,"Body":[{"Type":1,"Body":true},{"Type":24,"Body":[{"Type":24,"Body":[{"Type":6,"Body":3},{"Type":6,"Body":0}]},{"Type":0,"Body":null}]}]}]},{"Type":24,"Body":[]}]}
+    Value: {"Type":24,"Body":[{"Type":15,"Body":"njix3t2Dr25De2IM3ZsnPo9xT30nVaggw56h99smGuw="},{"Type":13,"Body":"2022-05-31T10:13:44.6365355"},{"Type":17,"Body":{"IdType":0,"Id":0,"Namespace":-1}},{"Type":1,"Body":true},{"Type":21,"Body":[{"LocaleId":"en-US","Text":"LL1001 - Warning: Tank 1 Low level"}]},{"Type":5,"Body":0},{"Type":21,"Body":{"NamespaceIndex":-1,"LocaleId":"","Text":""}},{"Type":12,"Body":""},{"Type":13,"Body":"2022-05-31T10:13:44.5570147"},{"Type":24,"Body":[{"Type":17,"Body":{"Id":9482}},{"Type":1,"Body":true},{"Type":1,"Body":false},{"Type":1,"Body":false},{"Type":7,"Body":0},{"Type":5,"Body":1},{"Type":17,"Body":{"IdType":2,"Id":"85a0eb1cff97f7d1a480111a6308a3e2","Namespace":8}},{"Type":20,"Body":{"Name":"Level","Uri":8}},{"Type":11,"Body":49.0},{"Type":6,"Body":-1},{"Type":6,"Body":0},{"Type":0,"Body":null},{"Type":24,"Body":[{"Type":0,"Body":null},{"Type":24,"Body":[{"Type":0,"Body":null},{"Type":6,"Body":-1},{"Type":6,"Body":0},{"Type":0,"Body":null},{"Type":6,"Body":-1},{"Type":6,"Body":0},{"Type":11,"Body":5.0},{"Type":6,"Body":-1},{"Type":6,"Body":0},{"Type":0,"Body":null},{"Type":6,"Body":-1},{"Type":6,"Body":0}]},{"Type":0,"Body":null}]}]},{"Type":24,"Body":[{"Type":1,"Body":false},{"Type":1,"Body":true},{"Type":24,"Body":[{"Type":1,"Body":false},{"Type":24,"Body":[{"Type":24,"Body":[{"Type":6,"Body":0},{"Type":6,"Body":0}]},{"Type":0,"Body":null}]}]}]},{"Type":24,"Body":[]}]}
   - Class: Reference
     Target: ns=22;i=81
     Direction: Forward
@@ -61,7 +61,7 @@ Children:
     DisplayName: {"LocaleId":"","Text":"LastEvent"}
     ValueRank: OneDimension
     ArrayDimensions: [0]
-    Value: {"Type":24,"Body":[{"Type":15,"Body":"GjsqGOEyzf/EmXArechsqfAtJ1D9O3VLOJs5zQJfojs="},{"Type":13,"Body":"2022-05-31T09:32:55.5412140"},{"Type":17,"Body":{"IdType":0,"Id":0,"Namespace":-1}},{"Type":1,"Body":true},{"Type":21,"Body":[{"LocaleId":"en-US","Text":"LL1002 - Warning: Tank 2 Low level"}]},{"Type":5,"Body":0},{"Type":21,"Body":{"NamespaceIndex":-1,"LocaleId":"","Text":""}},{"Type":12,"Body":""},{"Type":13,"Body":"2022-05-31T09:32:55.4745290"},{"Type":24,"Body":[{"Type":17,"Body":{"Id":9482}},{"Type":1,"Body":true},{"Type":1,"Body":false},{"Type":1,"Body":false},{"Type":7,"Body":0},{"Type":5,"Body":1},{"Type":17,"Body":{"IdType":2,"Id":"75a9920fb5451bbc12574bc4c777651d","Namespace":8}},{"Type":20,"Body":{"Name":"Level","Uri":8}},{"Type":11,"Body":49.0},{"Type":6,"Body":-1},{"Type":6,"Body":0},{"Type":0,"Body":null},{"Type":24,"Body":[{"Type":0,"Body":null},{"Type":24,"Body":[{"Type":0,"Body":null},{"Type":6,"Body":-1},{"Type":6,"Body":0},{"Type":0,"Body":null},{"Type":6,"Body":-1},{"Type":6,"Body":0},{"Type":11,"Body":5.0},{"Type":6,"Body":-1},{"Type":6,"Body":0},{"Type":0,"Body":null},{"Type":6,"Body":-1},{"Type":6,"Body":0}]},{"Type":0,"Body":null}]}]},{"Type":24,"Body":[{"Type":1,"Body":false},{"Type":1,"Body":true},{"Type":24,"Body":[{"Type":1,"Body":false},{"Type":24,"Body":[{"Type":24,"Body":[{"Type":6,"Body":0},{"Type":6,"Body":0}]},{"Type":0,"Body":null}]}]}]},{"Type":24,"Body":[]}]}
+    Value: {"Type":24,"Body":[{"Type":15,"Body":"GjsqGOEyzf/EmXArechsqVAtoNfPWdl/4VvZeFepUBo="},{"Type":13,"Body":"2022-05-31T10:13:44.6365355"},{"Type":17,"Body":{"IdType":0,"Id":0,"Namespace":-1}},{"Type":1,"Body":true},{"Type":21,"Body":[{"LocaleId":"en-US","Text":"LL1002 - Warning: Tank 2 Low level"}]},{"Type":5,"Body":0},{"Type":21,"Body":{"NamespaceIndex":-1,"LocaleId":"","Text":""}},{"Type":12,"Body":""},{"Type":13,"Body":"2022-05-31T10:13:44.5580648"},{"Type":24,"Body":[{"Type":17,"Body":{"Id":9482}},{"Type":1,"Body":true},{"Type":1,"Body":false},{"Type":1,"Body":false},{"Type":7,"Body":0},{"Type":5,"Body":1},{"Type":17,"Body":{"IdType":2,"Id":"75a9920fb5451bbc12574bc4c777651d","Namespace":8}},{"Type":20,"Body":{"Name":"Level","Uri":8}},{"Type":11,"Body":49.0},{"Type":6,"Body":-1},{"Type":6,"Body":0},{"Type":0,"Body":null},{"Type":24,"Body":[{"Type":0,"Body":null},{"Type":24,"Body":[{"Type":0,"Body":null},{"Type":6,"Body":-1},{"Type":6,"Body":0},{"Type":0,"Body":null},{"Type":6,"Body":-1},{"Type":6,"Body":0},{"Type":11,"Body":5.0},{"Type":6,"Body":-1},{"Type":6,"Body":0},{"Type":0,"Body":null},{"Type":6,"Body":-1},{"Type":6,"Body":0}]},{"Type":0,"Body":null}]}]},{"Type":24,"Body":[{"Type":1,"Body":false},{"Type":1,"Body":true},{"Type":24,"Body":[{"Type":1,"Body":false},{"Type":24,"Body":[{"Type":24,"Body":[{"Type":6,"Body":0},{"Type":6,"Body":0}]},{"Type":0,"Body":null}]}]}]},{"Type":24,"Body":[]}]}
   - Class: Reference
     Target: ns=22;i=81
     Direction: Forward
@@ -93,7 +93,7 @@ Children:
     Type: BaseDataVariableType
     DataType: Double
     DisplayName: {"LocaleId":"","Text":"InputValue"}
-    Value: 50.0
+    Value: 100.0
   - Name: LastEvent
     Id: ns=8;g=6ae03192b9c345eeb718da0b4ddd67d0
     Type: BaseDataVariableType

@@ -1,17 +1,21 @@
 Name: BoilerDemoClient
+Id: g=9301d8c2903d85a46b85f9de44bf4f38
 Type: ProjectFolder
 Children:
 - Name: BranchingEnabled
+  Id: g=e756963068701024eb6faef8bb620055
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
 - Name: Locales
+  Id: g=cd054575e61bc22c3670c0a13f4776b9
   Type: BaseDataVariableType
   DataType: String
   ValueRank: OneDimension
   ArrayDimensions: [0]
   Value: ["en-US","it-IT"]
 - Name: LocaleFallbackList
+  Id: g=b8ce7ac3ba719225cf214a9b7b7927f2
   Type: BaseDataVariableType
   DataType: String
   ValueRank: OneDimension
@@ -32,15 +36,18 @@ Children:
 - File: Translations/Translations.yaml
 - File: Retentivity/Retentivity.yaml
 - Name: DefaultUserFolder
+  Id: g=5a50176a352585d50b36270e6adaf6a1
   Type: NodePointer
   DataType: NodeId
   Value: {"IdType":2,"Id":"4ab8a898655d1fdff87d6980ad47e730","Namespace":35}
   Children:
   - Name: Kind
+    Id: g=c0fe5380621bcc782a806f561d4e2fbe
     Type: PropertyType
     DataType: NodeId
     Value: {"Id":61}
 - Name: MeasurementSystemMap
+  Id: g=ff84827ca566638947658f931b48470c
   Type: BaseDataVariableType
   DataType: MeasurementSystemMapItem
   ValueRank: OneDimension
