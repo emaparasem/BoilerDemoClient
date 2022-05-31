@@ -1,0 +1,76 @@
+Name: OPCUAClient
+Id: g=9f78eb2f1f373feb2ad5ccb7e29a5e21
+Type: OPCUAClient
+Children:
+- Name: ServerEndpointURL
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "opc.tcp://127.0.0.1:59100"
+- Name: MinimumMessageSecurityMode
+  Type: BaseDataVariableType
+  DataType: MessageSecurityModeEnum
+  Value: 0
+- Name: MinimumSecurityPolicy
+  Type: BaseDataVariableType
+  DataType: SecurityPolicyEnum
+  Value: 0
+- Name: UserIdentityType
+  Type: BaseDataVariableType
+  DataType: UserIdentityTypeEnum
+  Value: 0
+- Name: ConnectionStatus
+  Type: BaseDataVariableType
+  DataType: ConnectionStatusEnum
+  AccessLevel: Read
+  Value: 0
+- Name: ServerUri
+  Type: BaseDataVariableType
+  DataType: String
+  AccessLevel: Read
+  Value: ""
+- Name: Events
+  Type: BaseDataVariableType
+  DataType: EventsEnum
+  Value: 2
+- Name: RuntimeConfigurations
+  Type: BaseObjectType
+- Class: Reference
+  Target: ns=26;i=8
+  Direction: Forward
+- Class: Reference
+  Target: ns=26;i=9
+  Direction: Forward
+- Class: Reference
+  Target: ns=26;i=54
+  Direction: Forward
+- Class: Reference
+  Target: ns=26;i=57
+  Direction: Forward
+- Class: Reference
+  Target: ns=26;i=91
+  Direction: Forward
+- Class: Reference
+  Target: ns=26;i=60
+  Direction: Forward
+- Class: Reference
+  Target: ns=26;i=63
+  Direction: Forward
+- Class: Reference
+  Target: ns=26;i=83
+  Direction: Forward
+- Class: Reference
+  Target: ns=26;i=75
+  Direction: Forward
+- Name: VerifyServerIdentity
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Objects
+  Type: BaseObjectType
+  Children:
+  - Name: ns=8;BoilerDemo
+    Id: ns=8;g=7552f9d326d044d670694582c6d00622
+    Type: BaseObjectType
+    DisplayName: {"LocaleId":"","Text":"BoilerDemo"}
+    Children:
+    - File: Alarms/Alarms.yaml

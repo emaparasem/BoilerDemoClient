@@ -1,0 +1,67 @@
+Project:
+ Name: BoilerDemoClient_Design
+ ProjectNamespaceIndex: 19
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ CoreVersion: 8.0.0.0
+ Dependencies:
+  2:
+   Uri: BoilerDemoClient
+   RelativePath: BoilerDemoClient.optix
+  3:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#urn:ASPC553.asem.intra:UnifiedAutomation:UaDemoServerAnsiC'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  4:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#http://opcfoundation.org/UA/DI/'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  5:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#http://PLCopen.org/OpcUa/IEC61131-3/'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  6:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#http://www.unifiedautomation.com/DemoServer/'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  7:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#urn:ASPC476:FactoryTalkOptixHMI:FTOptixApplication'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  8:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#Temporary'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  9:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#BoilerDemo'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  10:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#9f78eb2f1f373feb2ad5ccb7e29a5e21#urn:ASPC553.asem.intra:UnifiedAutomation:UaDemoServerAnsiC'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  11:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#9f78eb2f1f373feb2ad5ccb7e29a5e21#http://opcfoundation.org/UA/DI/'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  12:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#9f78eb2f1f373feb2ad5ccb7e29a5e21#http://PLCopen.org/OpcUa/IEC61131-3/'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  13:
+   Uri: '9f78eb2f1f373feb2ad5ccb7e29a5e21#9f78eb2f1f373feb2ad5ccb7e29a5e21#http://www.unifiedautomation.com/DemoServer/'
+   ServerUri: 9f78eb2f1f373feb2ad5ccb7e29a5e21
+  14:
+   Uri: 'urn:FTOptix:CoreBase'
+   Module: FTOptix.CoreBase
+   Version: 8.0.0.0
+  15:
+   Uri: 'urn:FTOptix:CoreBase:Net'
+   Module: FTOptix.CoreBase.Net
+   Version: 5.0.0.0
+  16:
+   Uri: 'urn:FTOptix:TagImporter'
+   Module: FTOptix.TagImporter
+   Version: 2.0.0.0
+  17:
+   Uri: 'urn:FTOptix:OPCUAImporter'
+   Module: FTOptix.OPCUAImporter
+   Version: 3.0.0.0
+  18:
+   Uri: 'urn:FTOptix:NetLogic'
+   Module: FTOptix.NetLogic
+   Version: 5.0.0.0
+ Nodes:
+ - File: 'DesignTimeNodes/OPC-UA/OPCUAClient/OPCUATagImporter.yaml'

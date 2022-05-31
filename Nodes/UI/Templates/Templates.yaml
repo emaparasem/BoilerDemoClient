@@ -1,0 +1,4 @@
+Name: Templates
+Type: FolderType
+Children:
+- File: Graphic/Graphic.yaml
