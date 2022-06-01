@@ -51,17 +51,8 @@ Project:
    Uri: 'urn:FTOptix:CoreBase:Net'
    Module: FTOptix.CoreBase.Net
    Version: 5.0.0.0
-  16:
-   Uri: 'urn:FTOptix:TagImporter'
-   Module: FTOptix.TagImporter
-   Version: 2.0.0.0
-  17:
-   Uri: 'urn:FTOptix:OPCUAImporter'
-   Module: FTOptix.OPCUAImporter
-   Version: 3.0.0.0
   18:
    Uri: 'urn:FTOptix:NetLogic'
    Module: FTOptix.NetLogic
    Version: 5.0.0.0
- Nodes:
- - File: 'DesignTimeNodes/OPC-UA/OPCUAClient/OPCUATagImporter.yaml'
+ Nodes: []
