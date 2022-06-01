@@ -216,13 +216,13 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 540.0
+        Value: 420.0
       - Name: TopMargin
         Id: g=c0b1a4e2d3508d97b9c6d56cffd5257c
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 20.0
+        Value: 595.0
     - Name: AcknowledgeAllButton
       Id: g=07052f3cf04013bbdf92e2f113f21f2d
       Type: Button
@@ -351,13 +351,13 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 410.0
+        Value: 280.0
       - Name: TopMargin
         Id: g=ca5fa0d8bfa3a829dc8c8221a46d3719
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 20.0
+        Value: 595.0
     - Name: ConfirmButton
       Id: g=e11d7b76d580960a1229acf59056a002
       Type: Button
@@ -505,13 +505,13 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 280.0
+        Value: 140.0
       - Name: TopMargin
         Id: g=9c9839502682232b2e0a8697070c68e8
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 20.0
+        Value: 595.0
     - Name: ConfirmAllButton
       Id: g=43d091bfff11fd8c7d602d17b9bf84e9
       Type: Button
@@ -640,13 +640,13 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 150.0
+        Value: 0.0
       - Name: TopMargin
         Id: g=987e3860d28c71ac4f51dbd1b8987df4
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 20.0
+        Value: 595.0
     - Name: AlarmGridLogic
       Id: g=b03709831226f7ef1a05bb4bcaca089d
       Type: NetLogic
@@ -1328,25 +1328,25 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
+        Value: 50.0
       - Name: TopMargin
         Id: g=d47b9c25182204304e3f46a4861db664
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 70.0
+        Value: 0.0
     - Name: LeftMargin
       Id: g=5838889f5ba96a0be76d52da1570755a
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 15.0
+      Value: 40.0
     - Name: TopMargin
       Id: g=205197ca5318aadd614691df4e9eda2f
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 15.0
+      Value: 100.0
     - Name: HorizontalAlignment
       Id: g=41e67b5dff6e8ac6fd5c3d201520ed77
       Type: BaseVariableType
@@ -1364,13 +1364,13 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 15.0
+      Value: 40.0
     - Name: BottomMargin
       Id: g=ac690f249723865f0e6e1d0254a2c297
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 15.0
+      Value: 38.0
   - Name: Border
     Id: g=a1a5906cea5276a3aeb96b062a7f4083
     Type: Rectangle
@@ -2241,25 +2241,25 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 15.0
+      Value: 40.0
     - Name: RightMargin
       Id: g=ba5457b843276d35dedf860875388ddf
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 15.0
+      Value: 40.0
     - Name: BottomMargin
       Id: g=634eb5b0f9b48aaf6872a8d14af86553
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 15.0
+      Value: 38.0
     - Name: TopMargin
       Id: g=c4c0cfebf23053e5e55de7b87365310f
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 85.0
+      Value: 90.0
   - Name: PeriodicActionLogic
     Id: g=76499760e5ac03992bf34ee4982c7577
     Type: NetLogic
