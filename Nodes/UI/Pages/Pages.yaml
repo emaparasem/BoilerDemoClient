@@ -18,7 +18,46 @@ Children:
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 740.0
+    Value: 758.0
+  - Name: Background
+    Id: g=68a994ac5ad18dead3a0f882358a0fb5
+    Type: Image
+    Children:
+    - Name: Path
+      Id: g=d62945b0809f89f0417cbc676bb9df0a
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "ns=35;%PROJECTDIR%/ShinyOverlayf0.jpg"
+    - Name: Width
+      Id: g=8f80ad98959fa84627acd59f6e5a7742
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Id: g=0a7019d4b266f0bcffcc4b38e40acb27
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: HorizontalAlignment
+      Id: g=232e719cd09646a753bf3560b1c7a90f
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Id: g=dffd016a07a0792626690b46a199d5c1
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: FillMode
+      Id: g=a5f38daac36aa1373c29172dbf762d9c
+      Type: BaseDataVariableType
+      DataType: FillModeEnum
+      ModellingRule: Optional
+      Value: 1
   - Name: AlarmGrid1
     Id: g=34d99c534521ccc1b790e7dcffb9ec07
     Type: Panel
@@ -57,7 +96,7 @@ Children:
         Type: BaseVariableType
         DataType: VerticalAlignment
         ModellingRule: Optional
-        Value: 1
+        Value: 0
       - Name: BottomMargin
         Id: g=283a90e8e5a396e75aa995c4fa039ddc
         Type: BaseVariableType
@@ -166,6 +205,24 @@ Children:
             Type: PropertyType
             DataType: UInt16
             Value: 0
+      - Name: HorizontalAlignment
+        Id: g=e966bf5fa64ccb426d78557ea1820bbb
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: RightMargin
+        Id: g=9b2de551a24e1678b634a45185cb3bec
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 540.0
+      - Name: TopMargin
+        Id: g=c0b1a4e2d3508d97b9c6d56cffd5257c
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
     - Name: AcknowledgeAllButton
       Id: g=07052f3cf04013bbdf92e2f113f21f2d
       Type: Button
@@ -187,7 +244,7 @@ Children:
         Type: BaseVariableType
         DataType: VerticalAlignment
         ModellingRule: Optional
-        Value: 1
+        Value: 0
       - Name: LeftMargin
         Id: g=b10224fe22c7896658c202b744804190
         Type: BaseVariableType
@@ -283,6 +340,24 @@ Children:
             Type: PropertyType
             DataType: UInt16
             Value: 0
+      - Name: HorizontalAlignment
+        Id: g=617d336151467f3eb4e1de91e19b8f1c
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: RightMargin
+        Id: g=1d02758157bfe59706020f2cab2a5a44
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 410.0
+      - Name: TopMargin
+        Id: g=ca5fa0d8bfa3a829dc8c8221a46d3719
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
     - Name: ConfirmButton
       Id: g=e11d7b76d580960a1229acf59056a002
       Type: Button
@@ -304,7 +379,7 @@ Children:
         Type: BaseVariableType
         DataType: VerticalAlignment
         ModellingRule: Optional
-        Value: 1
+        Value: 0
       - Name: LeftMargin
         Id: g=9aabfb22c189e572095aa27bb1776516
         Type: BaseVariableType
@@ -419,6 +494,24 @@ Children:
             Type: PropertyType
             DataType: UInt16
             Value: 0
+      - Name: HorizontalAlignment
+        Id: g=f34a77c802f8b173a24373f4e13b0aee
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: RightMargin
+        Id: g=6e85990f6b0310a4ce01d3320f85071a
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 280.0
+      - Name: TopMargin
+        Id: g=9c9839502682232b2e0a8697070c68e8
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
     - Name: ConfirmAllButton
       Id: g=43d091bfff11fd8c7d602d17b9bf84e9
       Type: Button
@@ -440,7 +533,7 @@ Children:
         Type: BaseVariableType
         DataType: VerticalAlignment
         ModellingRule: Optional
-        Value: 1
+        Value: 0
       - Name: LeftMargin
         Id: g=06667ebcc577c729f4ba13afd147c899
         Type: BaseVariableType
@@ -536,6 +629,24 @@ Children:
             Type: PropertyType
             DataType: UInt16
             Value: 0
+      - Name: HorizontalAlignment
+        Id: g=940270290e263bd38e55637f5c77ca1c
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: RightMargin
+        Id: g=41566d11c9067b8ca7d5e90dc4d442db
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 150.0
+      - Name: TopMargin
+        Id: g=987e3860d28c71ac4f51dbd1b8987df4
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
     - Name: AlarmGridLogic
       Id: g=b03709831226f7ef1a05bb4bcaca089d
       Type: NetLogic
@@ -1217,19 +1328,25 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
+        Value: 0.0
+      - Name: TopMargin
+        Id: g=d47b9c25182204304e3f46a4861db664
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
         Value: 70.0
     - Name: LeftMargin
       Id: g=5838889f5ba96a0be76d52da1570755a
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 5.0
+      Value: 15.0
     - Name: TopMargin
       Id: g=205197ca5318aadd614691df4e9eda2f
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 5.0
+      Value: 15.0
     - Name: HorizontalAlignment
       Id: g=41e67b5dff6e8ac6fd5c3d201520ed77
       Type: BaseVariableType
@@ -1247,70 +1364,86 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 5.0
+      Value: 15.0
     - Name: BottomMargin
       Id: g=ac690f249723865f0e6e1d0254a2c297
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 5.0
-  - Name: Ft_Logo
-    Id: g=7e0049879e2f1a43d91a305e80b06aee
-    Type: Image
+      Value: 15.0
+  - Name: Border
+    Id: g=a1a5906cea5276a3aeb96b062a7f4083
+    Type: Rectangle
     Children:
-    - Name: Path
-      Id: g=3abff671d7f8afe10569139821ea982b
-      Type: BaseDataVariableType
-      DataType: ResourceUri
-      Value: "ns=35;%PROJECTDIR%/res/FTOptixLogo_cyan.svg"
     - Name: Width
-      Id: g=3a286dffe37d9ec2f679451f0971acad
+      Id: g=98bdc9daf49faa3ade0acb1729fbb409
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 80.0
+      Value: 50.0
     - Name: Height
-      Id: g=db88c607689972f7b3e1a7cab04aa9b7
+      Id: g=2c3a0b8bf5bb79c892113a12c27fe439
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 30.0
-    - Name: LeftMargin
-      Id: g=7a8a8eee3ccdbb0ba37e2ec7ee2289d5
-      Type: BaseVariableType
+      Value: 3.0
+    - Name: BorderThickness
+      Id: g=d0dfd11fdc4778f51c91fc6c133a47e2
+      Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 1180.0
-    - Name: TopMargin
-      Id: g=75e6e3e300785e8c1ce02ce9ba39c446
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 5.0
-    - Name: HorizontalAlignment
-      Id: g=2398c53432829d22c7e7fcbbf14413f4
-      Type: BaseVariableType
-      DataType: HorizontalAlignment
-      ModellingRule: Optional
-      Value: 1
+      Value: 0.0
     - Name: VerticalAlignment
-      Id: g=2f3aedcf69d1931cd8dbda451bcaac0d
+      Id: g=e8c3ccf0a2cbfa39ba0e8edec4c1e718
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 1
-    - Name: RightMargin
-      Id: g=790d3eae870a6a00232f8c7cdb36f322
+    - Name: HorizontalAlignment
+      Id: g=9b80d511e438b6edcb114de87e027d02
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: FillColor
+      Id: g=a5f4ba94f543c2e49b13927a35592ca3
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#0fafff"
+  - Name: FTOptixLogo
+    Id: g=8a91b3e727f5346362d9f8fb07d77db5
+    Type: Image
+    Children:
+    - Name: Path
+      Id: g=c05cfb60b8062de0809d8a05b83a58e0
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "ns=35;%PROJECTDIR%/FTOptixLogo_cyan.svg"
+    - Name: Width
+      Id: g=50fa2a948634c82cfeffc94476a05f54
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 5.0
-    - Name: BottomMargin
-      Id: g=2a3e798233439aa19f21352eff33018b
+      Value: 140.0
+    - Name: Height
+      Id: g=2a5f298aeec635ec5c6945b624b14e1f
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 5.0
+      Value: 50.0
+    - Name: LeftMargin
+      Id: g=45fec95cf2ad0396c6b1eab87a6c5245
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 15.0
+    - Name: TopMargin
+      Id: g=b86cb358c055d5d34fbab38837493ea7
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
 - Name: Historycal
   Id: g=6a8914c229a2834ae790416d12bd1181
   Supertype: Panel
@@ -1327,7 +1460,46 @@ Children:
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 740.0
+    Value: 758.0
+  - Name: Background
+    Id: g=e6a74455d1922bff1ab5819b0c355073
+    Type: Image
+    Children:
+    - Name: Path
+      Id: g=7a7598ac8ae94231006e5e4626a7dc0c
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "ns=35;%PROJECTDIR%/ShinyOverlayf0.jpg"
+    - Name: Width
+      Id: g=b44179df2cae53c2aec5f9ea74755ac0
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Id: g=b14b59e9644f526da756015c6a5a032e
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: HorizontalAlignment
+      Id: g=c41698db6ca045c1249cac0793ca0982
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Id: g=da49d0d9dab58c2f24250fd65e839d2b
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: FillMode
+      Id: g=47ed651dbcd61d295f05930d497b268e
+      Type: BaseDataVariableType
+      DataType: FillModeEnum
+      ModellingRule: Optional
+      Value: 1
   - Name: AlarmHistoryGrid1
     Id: g=8289266d5cc6fb4e305ffc426e7dc75e
     Type: DataGrid
@@ -2069,19 +2241,25 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 5.0
+      Value: 15.0
     - Name: RightMargin
       Id: g=ba5457b843276d35dedf860875388ddf
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 5.0
+      Value: 15.0
     - Name: BottomMargin
       Id: g=634eb5b0f9b48aaf6872a8d14af86553
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 5.0
+      Value: 15.0
+    - Name: TopMargin
+      Id: g=c4c0cfebf23053e5e55de7b87365310f
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 85.0
   - Name: PeriodicActionLogic
     Id: g=76499760e5ac03992bf34ee4982c7577
     Type: NetLogic
@@ -2132,3 +2310,76 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         Value: "Refresh"
+  - Name: Border
+    Id: g=a3a88357e65d577f3ccad8ce889ff972
+    Type: Rectangle
+    Children:
+    - Name: Width
+      Id: g=106521cb1298b838351d08a765c5762a
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Id: g=2ef25873944f5e8835798d91a2b8c3c7
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 3.0
+    - Name: BorderThickness
+      Id: g=625916bdfc2400c7496178751b5579bf
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
+    - Name: VerticalAlignment
+      Id: g=c9b017c85871aa0a618bd2615689de16
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: HorizontalAlignment
+      Id: g=19ea093a771859447bc88db9d423884f
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: FillColor
+      Id: g=7092b6134700562733d46b864bd5030d
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#0fafff"
+  - Name: FTOptixLogo
+    Id: g=65f28607b1bc424aaf3b0c4cb7eb81b3
+    Type: Image
+    Children:
+    - Name: Path
+      Id: g=f02c5b24dc91149cc8120d192ffdc453
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "ns=35;%PROJECTDIR%/FTOptixLogo_cyan.svg"
+    - Name: Width
+      Id: g=eae4ff433af194d103e9359a736f0e68
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 140.0
+    - Name: Height
+      Id: g=6aee7973a20549a76df35fbd657c5052
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: LeftMargin
+      Id: g=f2584849af75265cb057866cd361da97
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 15.0
+    - Name: TopMargin
+      Id: g=dc7f5b6eba396b067e888adee57ac679
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0

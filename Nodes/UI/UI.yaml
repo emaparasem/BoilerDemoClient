@@ -896,6 +896,12 @@ Children:
         DataType: VerticalAlignment
         ModellingRule: Optional
         Value: 3
+      - Name: TabPosition
+        Id: g=15e09e83956d36978c3c43677f817de0
+        Type: BaseVariableType
+        DataType: NavigationPanelTabPositionEnum
+        ModellingRule: Optional
+        Value: 1
   - Name: Caption
     Id: g=a481b746763b220fe10952f93937811f
     Type: BaseDataVariableType
