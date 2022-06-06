@@ -907,6 +907,6 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     ModellingRule: Optional
-    Value: "Boiler Demo"
+    Value: "Boiler Demo Client"
 - File: Templates/Templates.yaml
 - File: Pages/Pages.yaml
