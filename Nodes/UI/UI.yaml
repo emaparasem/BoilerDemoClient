@@ -84,7 +84,7 @@ Children:
     Id: g=440db920e88d16aba809a0a7bbbf24c8
     Type: BaseDataVariableType
     DataType: Size
-    Value: 0.0
+    Value: 5.0
   - Name: InteractiveColorGradientPercent
     Id: g=b40646f1dff110e78d1ae5626b91dbbd
     Type: BaseDataVariableType
