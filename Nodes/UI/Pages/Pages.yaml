@@ -1437,7 +1437,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 15.0
+      Value: 14.0
     - Name: TopMargin
       Id: g=b86cb358c055d5d34fbab38837493ea7
       Type: BaseVariableType
@@ -2259,7 +2259,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 90.0
+      Value: 100.0
   - Name: PeriodicActionLogic
     Id: g=76499760e5ac03992bf34ee4982c7577
     Type: NetLogic
@@ -2376,7 +2376,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 15.0
+      Value: 14.0
     - Name: TopMargin
       Id: g=dc7f5b6eba396b067e888adee57ac679
       Type: BaseVariableType
